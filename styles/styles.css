@@ -1,16 +1,16 @@
 @font-face {
     font-family: TrixieCyrG-Plain;
-    src: url(TrixieCyrG-Plain.woff);
+    src: url(trixiecyrg-plain.woff);
 }
 
 @font-face {
     font-family: Redaction35;
-    src: url(Redaction35-Regular.woff);
+    src: url(redaction35-regular.woff);
 }
 
 @font-face {
     font-family: Redaction50;
-    src: url(Redaction50-Regular.woff);
+    src: url(redaction50-regular.woff);
 }
 
 @media only screen and (min-width:768px) {
