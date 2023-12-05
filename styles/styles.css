@@ -1,0 +1,123 @@
+@font-face {
+    font-family: TrixieCyrG-Plain;
+    src: url(TrixieCyrG-Plain.woff);
+}
+
+@font-face {
+    font-family: Redaction35;
+    src: url(Redaction35-Regular.woff);
+}
+
+@font-face {
+    font-family: Redaction50;
+    src: url(Redaction50-Regular.woff);
+}
+
+@media only screen and (min-width:768px) {
+    .artista {
+        font-family: Redaction50; 
+        font-size: x-large;
+        width: 33%;
+        float: left;
+    }
+    body {
+        background-image: linear-gradient(180deg, rgb(0, 0, 0) 0% 20.00%, rgb(135, 33, 118) 80.00% 100%);
+        margin: 0px;
+        cursor: url(../media/Cross.cur), auto;
+    }
+    .intro {
+        font-family: Redaction35;
+        text-align: center;
+        color: white;
+    }
+    .hero-text {
+        font-family: 'TrixieCyrG-Plain';
+        font-size: 100px;
+        top: 10%;
+        left: 40%;
+        position: absolute;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .artista {
+        font-family: Redaction50;
+        font-size: x-large;
+        width: 100%;
+    }
+    body {
+        background-color: rgb(135, 33, 118);
+        margin: 0px;
+        cursor: url(../media/Cross.cur), auto;
+    }
+    .intro {
+        font-family: Redaction35;
+        text-align: center;
+    }
+    .hero-text {
+        font-family: 'TrixieCyrG-Plain';
+        font-size: 100px;
+        top: 10%;
+        text-align: center;
+        position: absolute;
+    }
+}
+
+img {
+    padding-top: 5%;
+}
+
+div {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+footer {
+    font-family: Redaction50;
+}
+
+.hero-image{
+    background-image: url(../images/Background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 450px;
+}
+
+.nombre {
+    margin-top: 0%;
+    font-size: 50px;
+}
+
+.boton {
+    background-color: black; 
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: white 4px 4px 0 0,black 4px 4px 0 1px;
+    /*box-sizing: border-box;*/
+    color: white;
+    font-size: 25px;
+    transition-duration: 0.5s;
+    cursor: cell;
+    text-decoration: none;
+}
+  
+.boton:hover {
+    background-color: white; 
+    border: 1px solid white;
+    border-radius: 4px;
+    box-shadow: black 4px 4px 0 0,white 4px 4px 0 1px;
+    /*box-sizing: border-box;*/
+    color: black;
+    font-size: 25px;
+    transition-duration: 0.5s;
+    cursor: cell;
+}
+
+.video {
+    border-color: grey;
+}
