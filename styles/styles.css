@@ -48,7 +48,7 @@
     body {
         background-color: rgb(135, 33, 118);
         margin: 0px;
-        cursor: url(../media/Cross.cur), auto;
+        cursor: url(../media/cross.cur), auto;
     }
     .intro {
         font-family: Redaction35;
@@ -80,7 +80,7 @@ footer {
 }
 
 .hero-image{
-    background-image: url(../images/Background.jpg);
+    background-image: url(../images/background.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
