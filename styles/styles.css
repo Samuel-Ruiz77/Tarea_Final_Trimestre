@@ -23,7 +23,7 @@
     body {
         background-image: linear-gradient(180deg, rgb(0, 0, 0) 0% 20.00%, rgb(135, 33, 118) 80.00% 100%);
         margin: 0px;
-        cursor: url(../media/Cross.cur), auto;
+        cursor: url(../media/cruz.cur), auto;
     }
     .intro {
         font-family: Redaction35;
@@ -48,7 +48,7 @@
     body {
         background-color: rgb(135, 33, 118);
         margin: 0px;
-        cursor: url(../media/cross.cur), auto;
+        cursor: url(../media/cruz.cur), auto;
     }
     .intro {
         font-family: Redaction35;
